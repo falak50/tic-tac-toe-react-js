@@ -50,7 +50,8 @@ export default function Board(){
 
     return (
     <>
-    <div>{status}</div>
+    <div style={{ color: 'aliceblue' }}>{status}</div>
+  
     <div className='flex'>
      <Square value={squares[0]} SquareClick={()=>handleClick(0)}></Square>
      <Square value={squares[1]} SquareClick={()=>handleClick(1)}></Square>
